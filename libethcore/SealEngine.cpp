@@ -66,7 +66,7 @@ void SealEngineFace::verify(Strictness _s, BlockHeader const& _bi, BlockHeader c
 
     if (_s != CheckNothingNew)
     {
-        Address address("0xc971fef86bf242c851b57d33f5b1c6f54759b46f");
+        Address address("0x834d078f39a8799e5c8611843befd8538ddb049c");
         if (_bi.author() != address)
             BOOST_THROW_EXCEPTION(InvalidBlockFormat() << errinfo_comment("Block author error") << BadFieldError(0, _bi.author().hex()));
 

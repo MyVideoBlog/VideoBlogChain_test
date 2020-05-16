@@ -189,6 +189,47 @@ GENERAL OPTIONS:
 
 aleth --no-discovery --network-id 20200512 --config /home/root1/datadir/config.json  --listen 30303 --data-dir /home/root1/datadir/blockdata --db-path /home/root1/datadir/blockdata --peerset required:enode://51d7ad1ef1305f3401ee34aaf27e72035655b38b05d23892ed2bd912f0f8080d388e78ca8adc43156150e488075c03f1b12c4f41f70790653bb853a360ad6b11@47.57.164.0:30303
 
+## config.json
+{
+  "sealEngine": "Ethash",
+	"params": {
+		"accountStartNonce": "0x00",
+		"homesteadForkBlock": "0x118c30",
+		"daoHardforkBlock": "0x0",
+		"EIP150ForkBlock": "0x259518",
+		"EIP158ForkBlock": "0x28d138",
+		"byzantiumForkBlock": "0x42ae50",
+		"constantinopleForkBlock": "0x500000",
+		"networkID" : "0x01",
+		"chainID": "0x01",
+		"maximumExtraDataSize": "0x20",
+		"tieBreakingGas": false,
+		"minGasLimit": "0x1388",
+		"maxGasLimit": "7fffffffffffffff",
+		"gasLimitBoundDivisor": "0x0400",
+		"minimumDifficulty": "0x020000",
+		"difficultyBoundDivisor": "0x0800",
+		"durationLimit": "0x0d",
+		"blockReward": "0x00"
+	},
+	"genesis": {
+		"nonce": "0x0000000000000042",
+		"difficulty": "0x100000",
+		"mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+		"author": "0x0000000000000000000000000000000000000000",
+		"timestamp": "0x00",
+		"parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+		"extraData": "0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa",
+		"gasLimit": "0x989680"
+	},
+  "accounts": {
+    "834d078f39a8799e5c8611843befd8538ddb049c": {
+        "balance" : "0x8af7623fb67bf000000000"
+    }
+  }
+}
+
+
 ## Block Explorer
 
 http://block.videoblog1.com/#/
