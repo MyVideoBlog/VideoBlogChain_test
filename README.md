@@ -187,7 +187,7 @@ GENERAL OPTIONS:
 
 ## Start Node
 
-aleth --no-discovery --network-id 20200512 --config /home/root1/datadir/config.json  --listen 30303 --data-dir /home/root1/datadir/blockdata --db-path /home/root1/datadir/blockdata --peerset required:enode://51d7ad1ef1305f3401ee34aaf27e72035655b38b05d23892ed2bd912f0f8080d388e78ca8adc43156150e488075c03f1b12c4f41f70790653bb853a360ad6b11@47.57.164.0:30303
+aleth --no-discovery --network-id 20200512 --config /home/root1/datadir/config.json  --listen 30303 --data-dir /home/root1/datadir/blockdata --db-path /home/root1/datadir/blockdata --peerset required:enode://5b919c6c78bc2d9093b09fece2f224a026a97e1533a6464370541fa93f9b88d4e3ef43406c08cfb9300b71d28707638830d0e8556c7851cfa6483fa2706001eb@47.57.164.0:30303
 
 ## config.json
 {
