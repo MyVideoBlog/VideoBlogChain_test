@@ -228,7 +228,8 @@ aleth --no-discovery --network-id 20200512 --config /home/root1/datadir/config.j
     }
   }
 }
-
+## 启动RPC服务
+./scripts/dopple.py  /home/root1/datadir/blockdata/geth.ipc   http://172.31.213.189:30304 
 
 ## Block Explorer
 
