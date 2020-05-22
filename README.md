@@ -187,7 +187,7 @@ GENERAL OPTIONS:
 
 ## Start Node
 
-aleth --no-discovery --network-id 20200512 --config /home/root1/datadir/config.json  --listen 30303 --data-dir /home/root1/datadir/blockdata --db-path /home/root1/datadir/blockdata --peerset required:enode://5b919c6c78bc2d9093b09fece2f224a026a97e1533a6464370541fa93f9b88d4e3ef43406c08cfb9300b71d28707638830d0e8556c7851cfa6483fa2706001eb@47.57.164.0:30303
+aleth --no-discovery --config /home/root1/datadir/config.json  --listen 30303 --data-dir /home/root1/datadir/blockdata --db-path /home/root1/datadir/blockdata --peerset required:enode://3eb48e3dbab6bc18786b234bb7ba83c3f0ebfd3294ae077d67be2bc5d1cc21c2de86efc4459892cbf527c22a2110738efea684210e11e8be274a28444635677d@47.57.164.0:30303
 
 ## config.json
 {
@@ -200,8 +200,8 @@ aleth --no-discovery --network-id 20200512 --config /home/root1/datadir/config.j
 		"EIP158ForkBlock": "0x28d138",
 		"byzantiumForkBlock": "0x42ae50",
 		"constantinopleForkBlock": "0x500000",
-		"networkID" : "0x01",
-		"chainID": "0x01",
+		"networkID" : "0x20200522",
+		"chainID": "0x20200522",
 		"maximumExtraDataSize": "0x20",
 		"tieBreakingGas": false,
 		"minGasLimit": "0x1388",
